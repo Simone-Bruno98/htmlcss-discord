@@ -1,8 +1,10 @@
-html{
+body{
     margin: 0% 0%;
     padding: 0% 0%;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: white;
+    width: 100vw;
+    font-family: arial;
 }
 header{
     display: block;
@@ -29,27 +31,27 @@ header{
     color:yellow;
     width: inherit;
     text-align: center;
-}
-.logobuttons a{
     margin: 0% 2%;
 }
 .accessbutton{
     text-decoration: none;
-    padding: 7px 16px;
+    padding: 15px 25px;
     background-color: white;
     color: black;
-    border-radius: 20%;
+    border-radius: 25%/50%;
     position: absolute;
     right: 15%;
     top: 50%;
     transform: translate(0%, -50%);
-}
-    
+    font-weight: 700;
+}  
 .logobuttons a{
-    color: yellow;
+    color: white;
     display: inline-block;
     line-height: 100%;
     vertical-align: center;
+    margin: 0% 2%;
+    font-weight: 700;
 }
 /* HEADER COMPLETATO */
 .download{
@@ -67,8 +69,8 @@ a{
 .downloadtext{
     text-align: center;
     position: relative;
-    top: 10%;
-    margin: 0% 30%;
+    top: 8%;
+    margin: 0% 25%;
 }
 .downloadtext h1,p{
     color: white;
@@ -76,8 +78,9 @@ a{
 
 }
 .downloadtext h1{
-    font-size: 45px;
+    font-size: 50px;
     margin-bottom: 35px;
+    font-weight: 800;
 }
 .downloadtext p{
     font-size: 20px;
@@ -85,24 +88,216 @@ a{
 .downloadmac{
     background-color: white;
     color: black;
-    padding: 7px 16px;
-    border-radius: 20%;
+    padding: 15px 25px;
+    border-radius: 15%/50%;
     display: inline-block;
     text-align: left;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 700;
     
 }
 .openpc{
     background-color: black;
     color: white;
-    padding: 7px 16px;
-    border-radius: 20%;
+    padding: 15px 25px;
+    border-radius: 10%/50%;
     display: inline-block;
     text-align: right;
-    margin-left: 30px;
-}
-.downloadbuttons{
-    display: inline-block;
-
+    margin-left: 20px;
+    font-weight: 700;
+}    
 /* Downloda section completata */
 
+.section1,.section2,.section3,.section4{
+    margin: 0% 16%;
+    height: 80vh;
+    position: relative;
+}
+.section1 .sectionimage{
+    width: auto;
+    display: inline-block;
+    height: 80%;
+    position: relative;
+    top: 10%;
+}
+.section1  .sectiontext{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+}
+.section2 .sectionimage{
+    width: auto;
+    display: inline-block;
+    height: 80%;
+    position: absolute;
+    top: 10%;   
+    right: 0%; 
+}
+.section2 .sectiontext{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 25%;
+    left: 0%;
+}
+.sectiontext h2{
+    font-size: 40px;
+    color: black;
+    margin: 0px 0px;
+    font-weight: 900;
+}
+.section4text h2{
+    font-size: 40px;
+    color: black;
+    margin: 0px 0px;
+    font-weight: 900;
+}
+.sectiontext p{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+.section4text p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 3% 10%;
+}
+.section4text{
+    display: block;
+    width: 100%;
+    margin: 0% 0%;
+    height: auto;
+    text-align: center;
+    color: black;
+}
+.section4image{
+    width: 80%;
+    display:block;
+    height: auto;
+    margin: 0% 10%;   
+}
+.section5{
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.section5 *{
+    position: relative;
+    top: 20px;
+}
+.section5 h3{
+    font-size: 27px;
+}
+.section5 a{
+    background-color: #8EA1E1;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 15%/50%;
+    text-align: right;
+    margin-left: 30px;
+    margin-bottom: 150px;
+    font-weight: 700;
+}
+
+footer{
+    box-sizing: border-box;
+    height: 60vh;
+    width: 100vw;
+    background-color: #23272A;
+    padding: 5% 15%;
+    display: inline-block;
+    position: relative;
+}
+.footersx{
+    float: left;
+    width: 20%;
+}
+.footersx h3{
+    font-size: 30px;
+    color: #7289DA;
+    font-weight: 700;
+    margin: 0% 0% 10% 0%;
+}
+.footersx img{
+    height: 15px;
+}
+.footersx div{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.footersx p{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.footersx #instagram{
+    margin: 0% 3% 0% 6%;
+}
+.footersx #facebook{
+    margin: 0% 6% 0% 3%;
+}
+.footerdx{
+    float: right;
+    width: 70%;
+}
+.column1{
+    float: right;
+    width: 25%;
+}
+.column2{
+    float: right;
+    width: 25%;
+}
+.column3{
+    float: right;
+    width: 25%;
+}
+.column4{
+    float: right;
+    width: 25%;
+}
+.title{
+    color: #7289DA;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.text{
+    margin-bottom: 10px;
+    color: white;
+}
+.clearfix{
+    Content: “”;
+    Display: table;
+    clear: both;
+}
+.bottombanner{
+    position: absolute;
+    width: 10%; 
+    bottom: 10%;
+    /* transform: translate(0%, -50%); */
+}
+.registerbutton{
+    text-decoration: none;
+    padding: 7px 16px;
+    background-color: #8EA1E1;
+    color: white;
+    border-radius: 15%/50%;
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+    transform: translate(0%, -50%);
+} 
+hr{
+    color: #7289DA;
+}
